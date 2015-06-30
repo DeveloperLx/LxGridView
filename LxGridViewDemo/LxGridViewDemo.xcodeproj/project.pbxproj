@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0437C2491B1B44B3002FAE28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0437C2481B1B44B3002FAE28 /* Foundation.framework */; };
+		0437C24B1B1B44B3002FAE28 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0437C24A1B1B44B3002FAE28 /* CoreGraphics.framework */; };
+		0437C24D1B1B44B3002FAE28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0437C24C1B1B44B3002FAE28 /* UIKit.framework */; };
+		0437C2531B1B44B3002FAE28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0437C2511B1B44B3002FAE28 /* InfoPlist.strings */; };
+		0437C2551B1B44B3002FAE28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437C2541B1B44B3002FAE28 /* main.m */; };
+		0437C2591B1B44B3002FAE28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437C2581B1B44B3002FAE28 /* AppDelegate.m */; };
+		0437C25C1B1B44B3002FAE28 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0437C25A1B1B44B3002FAE28 /* Main_iPhone.storyboard */; };
+		0437C25F1B1B44B3002FAE28 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0437C25D1B1B44B3002FAE28 /* Main_iPad.storyboard */; };
+		0437C2621B1B44B3002FAE28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437C2611B1B44B3002FAE28 /* ViewController.m */; };
+		0437C2641B1B44B3002FAE28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0437C2631B1B44B3002FAE28 /* Images.xcassets */; };
+		B66073EF1B42E59B0049066F /* LxGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = B66073EA1B42E59B0049066F /* LxGridView.m */; };
+		B66073F01B42E59B0049066F /* LxGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B66073EC1B42E59B0049066F /* LxGridViewCell.m */; };
+		B66073F11B42E59B0049066F /* LxGridViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B66073EE1B42E59B0049066F /* LxGridViewFlowLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0437C2451B1B44B3002FAE28 /* LxGridViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LxGridViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0437C2481B1B44B3002FAE28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0437C24A1B1B44B3002FAE28 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0437C24C1B1B44B3002FAE28 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0437C2501B1B44B3002FAE28 /* LxGridViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LxGridViewDemo-Info.plist"; sourceTree = "<group>"; };
+		0437C2521B1B44B3002FAE28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0437C2541B1B44B3002FAE28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0437C2561B1B44B3002FAE28 /* LxGridViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LxGridViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		0437C2571B1B44B3002FAE28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0437C2581B1B44B3002FAE28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0437C25B1B1B44B3002FAE28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		0437C25E1B1B44B3002FAE28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		0437C2601B1B44B3002FAE28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0437C2611B1B44B3002FAE28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0437C2631B1B44B3002FAE28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0437C26A1B1B44B3002FAE28 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B66073E91B42E59B0049066F /* LxGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxGridView.h; sourceTree = "<group>"; };
+		B66073EA1B42E59B0049066F /* LxGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxGridView.m; sourceTree = "<group>"; };
+		B66073EB1B42E59B0049066F /* LxGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxGridViewCell.h; sourceTree = "<group>"; };
+		B66073EC1B42E59B0049066F /* LxGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxGridViewCell.m; sourceTree = "<group>"; };
+		B66073ED1B42E59B0049066F /* LxGridViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxGridViewFlowLayout.h; sourceTree = "<group>"; };
+		B66073EE1B42E59B0049066F /* LxGridViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxGridViewFlowLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0437C2421B1B44B3002FAE28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0437C24B1B1B44B3002FAE28 /* CoreGraphics.framework in Frameworks */,
+				0437C24D1B1B44B3002FAE28 /* UIKit.framework in Frameworks */,
+				0437C2491B1B44B3002FAE28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0437C23C1B1B44B3002FAE28 = {
+			isa = PBXGroup;
+			children = (
+				0437C24E1B1B44B3002FAE28 /* LxGridViewDemo */,
+				0437C2471B1B44B3002FAE28 /* Frameworks */,
+				0437C2461B1B44B3002FAE28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0437C2461B1B44B3002FAE28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0437C2451B1B44B3002FAE28 /* LxGridViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0437C2471B1B44B3002FAE28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0437C2481B1B44B3002FAE28 /* Foundation.framework */,
+				0437C24A1B1B44B3002FAE28 /* CoreGraphics.framework */,
+				0437C24C1B1B44B3002FAE28 /* UIKit.framework */,
+				0437C26A1B1B44B3002FAE28 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0437C24E1B1B44B3002FAE28 /* LxGridViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B66073E81B42E59B0049066F /* LxGridView */,
+				0437C2601B1B44B3002FAE28 /* ViewController.h */,
+				0437C2611B1B44B3002FAE28 /* ViewController.m */,
+				0437C2571B1B44B3002FAE28 /* AppDelegate.h */,
+				0437C2581B1B44B3002FAE28 /* AppDelegate.m */,
+				0437C25A1B1B44B3002FAE28 /* Main_iPhone.storyboard */,
+				0437C25D1B1B44B3002FAE28 /* Main_iPad.storyboard */,
+				0437C2631B1B44B3002FAE28 /* Images.xcassets */,
+				0437C24F1B1B44B3002FAE28 /* Supporting Files */,
+			);
+			path = LxGridViewDemo;
+			sourceTree = "<group>";
+		};
+		0437C24F1B1B44B3002FAE28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0437C2561B1B44B3002FAE28 /* LxGridViewDemo-Prefix.pch */,
+				0437C2501B1B44B3002FAE28 /* LxGridViewDemo-Info.plist */,
+				0437C2511B1B44B3002FAE28 /* InfoPlist.strings */,
+				0437C2541B1B44B3002FAE28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B66073E81B42E59B0049066F /* LxGridView */ = {
+			isa = PBXGroup;
+			children = (
+				B66073E91B42E59B0049066F /* LxGridView.h */,
+				B66073EA1B42E59B0049066F /* LxGridView.m */,
+				B66073EB1B42E59B0049066F /* LxGridViewCell.h */,
+				B66073EC1B42E59B0049066F /* LxGridViewCell.m */,
+				B66073ED1B42E59B0049066F /* LxGridViewFlowLayout.h */,
+				B66073EE1B42E59B0049066F /* LxGridViewFlowLayout.m */,
+			);
+			name = LxGridView;
+			path = ../../LxGridView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0437C2441B1B44B3002FAE28 /* LxGridViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0437C27A1B1B44B3002FAE28 /* Build configuration list for PBXNativeTarget "LxGridViewDemo" */;
+			buildPhases = (
+				0437C2411B1B44B3002FAE28 /* Sources */,
+				0437C2421B1B44B3002FAE28 /* Frameworks */,
+				0437C2431B1B44B3002FAE28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LxGridViewDemo;
+			productName = LxGridViewDemo;
+			productReference = 0437C2451B1B44B3002FAE28 /* LxGridViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0437C23D1B1B44B3002FAE28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DeveloperLx;
+			};
+			buildConfigurationList = 0437C2401B1B44B3002FAE28 /* Build configuration list for PBXProject "LxGridViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0437C23C1B1B44B3002FAE28;
+			productRefGroup = 0437C2461B1B44B3002FAE28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0437C2441B1B44B3002FAE28 /* LxGridViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0437C2431B1B44B3002FAE28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0437C25F1B1B44B3002FAE28 /* Main_iPad.storyboard in Resources */,
+				0437C2641B1B44B3002FAE28 /* Images.xcassets in Resources */,
+				0437C25C1B1B44B3002FAE28 /* Main_iPhone.storyboard in Resources */,
+				0437C2531B1B44B3002FAE28 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0437C2411B1B44B3002FAE28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66073EF1B42E59B0049066F /* LxGridView.m in Sources */,
+				0437C2621B1B44B3002FAE28 /* ViewController.m in Sources */,
+				B66073F11B42E59B0049066F /* LxGridViewFlowLayout.m in Sources */,
+				0437C2591B1B44B3002FAE28 /* AppDelegate.m in Sources */,
+				0437C2551B1B44B3002FAE28 /* main.m in Sources */,
+				B66073F01B42E59B0049066F /* LxGridViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0437C2511B1B44B3002FAE28 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0437C2521B1B44B3002FAE28 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0437C25A1B1B44B3002FAE28 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0437C25B1B1B44B3002FAE28 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0437C25D1B1B44B3002FAE28 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0437C25E1B1B44B3002FAE28 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0437C2781B1B44B3002FAE28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0437C2791B1B44B3002FAE28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0437C27B1B1B44B3002FAE28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LxGridViewDemo/LxGridViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "LxGridViewDemo/LxGridViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0437C27C1B1B44B3002FAE28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LxGridViewDemo/LxGridViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "LxGridViewDemo/LxGridViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0437C2401B1B44B3002FAE28 /* Build configuration list for PBXProject "LxGridViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0437C2781B1B44B3002FAE28 /* Debug */,
+				0437C2791B1B44B3002FAE28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0437C27A1B1B44B3002FAE28 /* Build configuration list for PBXNativeTarget "LxGridViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0437C27B1B1B44B3002FAE28 /* Debug */,
+				0437C27C1B1B44B3002FAE28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0437C23D1B1B44B3002FAE28 /* Project object */;
+}
