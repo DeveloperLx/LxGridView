@@ -15,7 +15,7 @@
 	//	... config _gridViewFlowLayout
 	
 	_gridView = [[LxGridView alloc]initWithFrame:GRIDVIEW_FRAME collectionViewLayout:_gridViewFlowLayout];
-	//	...	congif _gridView
+	//	... config _gridView
 	
 	[_gridView registerClass:[LxGridViewCell class] forCellWithReuseIdentifier:GRIDVIEW_CELL_REUSE_IDENTIFIER];
 
