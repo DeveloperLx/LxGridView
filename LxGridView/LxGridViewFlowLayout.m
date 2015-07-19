@@ -220,6 +220,19 @@ CG_INLINE CGPoint CGPointOffset(CGPoint point, CGFloat dx, CGFloat dy)
             [_beingMovedPromptView addSubview:highlightedSnapshotView];
             [self.collectionView addSubview:_beingMovedPromptView];
             
+            static NSString * const kVibrateAnimation = @stringify(kVibrateAnimation);
+            static CGFloat const VIBRATE_DURATION = 0.1;
+            static CGFloat const VIBRATE_RADIAN = M_PI / 96;
+            
+            CABasicAnimation * vibrateAnimation = [CABasicAnimation animationWithKeyPath:@stringify(transform.rotation.z)];
+            vibrateAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+            vibrateAnimation.fromValue = @(- VIBRATE_RADIAN);
+            vibrateAnimation.toValue = @(VIBRATE_RADIAN);
+            vibrateAnimation.autoreverses = YES;
+            vibrateAnimation.duration = VIBRATE_DURATION;
+            vibrateAnimation.repeatCount = CGFLOAT_MAX;
+            [_beingMovedPromptView.layer addAnimation:vibrateAnimation forKey:kVibrateAnimation];
+            
             _sourceItemCollectionViewCellCenter = sourceCollectionViewCell.center;
             
             typeof(self) __weak weakSelf = self;

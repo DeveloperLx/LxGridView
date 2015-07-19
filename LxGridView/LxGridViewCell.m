@@ -198,10 +198,10 @@ static CGFloat const VIBRATE_RADIAN = M_PI / 96;
 
 - (void)setVibrating:(BOOL)vibrating
 {
-    BOOL _vibrating = [self.iconImageView.layer.animationKeys containsObject:kVibrateAnimation];
+    BOOL _vibrating = [self.layer.animationKeys containsObject:kVibrateAnimation];
     
     if (_vibrating && !vibrating) {
-        [self.iconImageView.layer removeAnimationForKey:kVibrateAnimation];
+        [self.layer removeAnimationForKey:kVibrateAnimation];
     }
     else if (!_vibrating && vibrating) {
         CABasicAnimation * vibrateAnimation = [CABasicAnimation animationWithKeyPath:@stringify(transform.rotation.z)];
@@ -211,7 +211,7 @@ static CGFloat const VIBRATE_RADIAN = M_PI / 96;
         vibrateAnimation.autoreverses = YES;
         vibrateAnimation.duration = VIBRATE_DURATION;
         vibrateAnimation.repeatCount = CGFLOAT_MAX;
-        [self.iconImageView.layer addAnimation:vibrateAnimation forKey:kVibrateAnimation];
+        [self.layer addAnimation:vibrateAnimation forKey:kVibrateAnimation];
     }
 }
 
