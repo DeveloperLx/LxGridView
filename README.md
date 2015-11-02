@@ -5,6 +5,8 @@
 ---
 ###	Installation
 	You only need drag directory LxGridView to your project.
+### Podfile
+    pod 'LxGridView', '~> 1.0.0'
 ###	Support	
 	Minimum support iOS version: iOS 6.0
 ###	Usage
