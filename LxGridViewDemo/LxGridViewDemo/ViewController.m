@@ -107,7 +107,7 @@ static CGFloat const HOME_BUTTON_BOTTOM_MARGIN = 9;
     
     _homeButton.translatesAutoresizingMaskIntoConstraints = NO;
     
-    NSLayoutConstraint * centerXConstraint =
+    NSLayoutConstraint * homeButtonCenterXConstraint =
     [NSLayoutConstraint constraintWithItem:_homeButton
                                  attribute:NSLayoutAttributeCenterX
                                  relatedBy:NSLayoutRelationEqual
@@ -143,7 +143,7 @@ static CGFloat const HOME_BUTTON_BOTTOM_MARGIN = 9;
                                 multiplier:1
                                   constant:HOME_BUTTON_RADIUS * 2];
     
-    [self.view addConstraints:@[centerXConstraint,homeButtonBottomMargin,homeButtonWidthMargin,homeButtonHeightMargin]];
+    [self.view addConstraints:@[homeButtonCenterXConstraint,homeButtonBottomMargin,homeButtonWidthMargin,homeButtonHeightMargin]];
 }
 
 - (NSMutableArray *)dataArray
