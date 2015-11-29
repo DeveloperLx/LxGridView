@@ -12,7 +12,7 @@
 ###	Usage
 
 `You can use LxGridView as convenient as UICollectionView.`
-
+```objc
 	_gridViewFlowLayout = [[LxGridViewFlowLayout alloc]init];
 	//	... config _gridViewFlowLayout
 	
@@ -57,7 +57,7 @@
 	        } completion:nil];
 	    }
 	}
-
+```
 ---
 ###	License
 LxGridView is available under the Apache License 2.0. See the LICENSE file for more info.
