@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "LxGridView"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Imitate Apple iOS system Desktop icons arrangement and interaction by inheriting UICollectionView!"
   s.homepage     = "https://github.com/DeveloperLx/LxGridView"
   s.license      = 'Apache'
